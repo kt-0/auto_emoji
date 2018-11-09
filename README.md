@@ -26,9 +26,9 @@ press 'i' for insert mode, and enter the following
     
 `* * * * *` represents the cron schedule: `minutes hours day(of the month) months day(of the week)` -- see [crontab.guru](https://crontab.guru/) for crontab tips/examples 
 
-the next piece `/usr/local/bin/python3.6` represents the Python3.6 'executable' path, and `/Users/user/Documents/auto_emoji.py` is the file path
+the next piece `/usr/local/bin/python3.6` represents the Python3.6 'executable' path, and `/Users/user/Documents/auto_emoji.py` is where ever the Python script is saved
 
-`>> ~/cron.log 2>&1` specifies to send all output (STDERR and STDOUT) to cron.log, instead of an email
+`>> ~/cron.log 2>&1` specifies to send all output (STDERR and STDOUT) to cron.log, instead of an email (recommend)
 
 Finally, make sure to give the python file itself executable permissions:
 
