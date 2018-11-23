@@ -30,6 +30,8 @@ the next piece `/usr/local/bin/python3.6` represents the Python3.6 'executable' 
 
 `>> ~/cron.log 2>&1` specifies to send all output (STDERR and STDOUT) to cron.log, instead of an email (recommend)
 
+Once done editing, press `esc` then `:wq` to write(save) and quit
+
 Finally, make sure to give the python file itself executable permissions:
 
 `chmod +x <python file>`
